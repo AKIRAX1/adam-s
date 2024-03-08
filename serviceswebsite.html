@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ADAM's - Services</title>
+    <link rel="stylesheet" href="main_styles.css">
+</head>
+<body>
+    <header>
+        <h1>ADAM's</h1>
+        <p>Welcome to ADAM's website</p>
+    </header>
+    <nav>
+        <a href="homepage.html">Home</a>
+        <a href="qandas.html">Q&amp;As</a>
+        <a href="serviceswebsite.html">Services</a>
+        <a href="contactwebsite.html">Contact</a>
+    </nav>
+    <section class="container services">
+        <h2>Services</h2>
+        <div>
+            <h3>Choose a Plan:</h3>
+            <button onclick="showPlan('free')" class="btn">Free</button>
+            <button onclick="showPlan('good')" class="btn">Good</button>
+            <button onclick="showPlan('elite')" class="btn">Elite</button>
+        </div>
+        <div id="planDetails" style="display: none;">
+            <!-- Plan details will be shown here -->
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2024 ADM AKIRA. All rights reserved.</p>
+    </footer>
+
+    <script src="main_script.js"></script>
+</body>
+</html>
